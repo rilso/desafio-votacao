@@ -123,7 +123,7 @@ Autor: Railson Carvalho de Oliveira
 - Java 17
 - Spring boot 3.3.0
 - Docker compose
-- PostgreSQL
+- PostgreSQL 16.3
 - Swagger
 - JUnit
 
@@ -144,3 +144,7 @@ Suba o postgreSQL através do docker compose:
 Rode a aplicação com:
 
 ```mvn spring-boot:run```
+
+## Documentação
+
+Após subir o projeto, acesse a documentação da API através do link http://localhost:8080/swagger-ui/index.html
